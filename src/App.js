@@ -7,7 +7,6 @@ import Services from './pages/Services'
 import Contact from './pages/Contact'
 import Login from './pages/Login'
 import SignUp from './pages/SignUp'
-import ProtectedRoute from './components/ProtectedRoute'
 import { AuthProvider } from './contexts/AuthContext'
 
 export function App() {

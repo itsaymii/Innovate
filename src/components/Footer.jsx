@@ -23,26 +23,38 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4 mt-6">
               <a
-                href="#"
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-gray-400 hover:text-indigo-400 transition-colors duration-200"
+                aria-label="Follow us on Twitter"
               >
                 <TwitterIcon size={20} />
               </a>
               <a
-                href="#"
+                href="https://facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-gray-400 hover:text-indigo-400 transition-colors duration-200"
+                aria-label="Follow us on Facebook"
               >
                 <FacebookIcon size={20} />
               </a>
               <a
-                href="#"
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-gray-400 hover:text-indigo-400 transition-colors duration-200"
+                aria-label="Follow us on Instagram"
               >
                 <InstagramIcon size={20} />
               </a>
               <a
-                href="#"
+                href="https://linkedin.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-gray-400 hover:text-indigo-400 transition-colors duration-200"
+                aria-label="Follow us on LinkedIn"
               >
                 <LinkedinIcon size={20} />
               </a>
